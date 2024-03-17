@@ -4,7 +4,7 @@ members = ["crates/*"]
 
 [workspace.dependencies]
 # Windowing
-winit = { version = "0.29.14" }
+winit = { version = "0.29.15" }
 
 # WGPU
 wgpu = { version = "0.19.3", features = ["spirv", "glsl", "wgsl", "naga-ir"] }
